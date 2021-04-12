@@ -7,10 +7,12 @@ aabbccddee
 `;
 
 // const regexp = new RegExp('the','gi');
-const regexp = /the/gi
+const regexp = /the/gi;
 // console.log(str.match(regexp));
 // console.log(regexp.test(str));
 // str = str.replace(regexp, 'AAA')
 // console.log(str);
 
-console.log(str.match(/\.$/gim))
+// console.log(str.match(/\.$/gim));
+
+console.log(str.match(regexp));
