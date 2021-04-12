@@ -44,7 +44,7 @@ match | `문자열.natch(정규식)` | 일치하는 문자의 배열(Array) 반�
 replace | `문자열.replace(정규식, 대체문자)` | 일치하는 문자를 대체
 search | `문자열.search(정규식)` | 일치하는 문자열의 인뎃그(Number) 반환
 replace | `문자열.replace(정규식, 대체문자)` | 일치하는 문자열을 대체하고 대체된 문자열(String) 반환
-split | `문자열.split(정규식)` 일치하는 문자열을 분할하여 배열(Array) 로 반환
+split | `문자열.split(정규식)` | 일치하는 문자열을 분할하여 배열(Array) 로 반환
 toString | 생성자_정규식.toString() | 생성자 함수 방식의 정규식을 리터럴 방식의 문자열(String)로 반환
 
 ## 플래그(옵션)
