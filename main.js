@@ -17,6 +17,36 @@ const regexp = /the/gi;
 
 console.log(str.match(regexp));
 
+// console.log(
+//     str.match(/d$/gm)
+// );
+
+// console.log(
+//     str.match(/[0-9]/g)
+// )
+
+// console.log(
+//     str.match(/\w/g)
+// )
+
+// console.log(
+//     str.match(/\bf\w{1,}/g)
+// );
+
+// console.log(
+//     str.match(/\d{1,}/g)
+// )
+
+const h1 = `  the hello  world   !`
+
 console.log(
-    str.match(/d$/gm)
-);
+    h1.replace(/\s/g, '')
+)
+
+console.log(
+    str.match(/.{1,}(?=\@)/g)
+)
+
+console.log(
+    str.match(/(?<=@).{1,}/g)
+)
